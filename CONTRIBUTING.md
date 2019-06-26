@@ -71,7 +71,7 @@ Once you have an idea of what you want to do, there is a section in the [documen
 1. Test - make sure your changes work
 1. Open a pull request!
 
-Make sure to  in your commit message. Ideal pull requests include [Testing Framework] examples. Our goal is 100% test coverage. Please follow our coding conventions (below) 
+ Please review the following components for more detail on how to submit changes. 
 
 ### Commit Messages
 When writing commits:
@@ -85,7 +85,7 @@ $ git commit -m "A brief summary of the commit
 ```
 ### Testing
 
-Testing details forthcoming.
+Testing details forthcoming. Ideal pull requests include [Testing Framework] examples. Our goal is 100% test coverage. 
 
 ### Coding Conventions
 
@@ -98,6 +98,9 @@ Start reading our code and you'll notice most of the following. We optimize for 
   * This is open source software. Consider the people who will read your code, and make it look nice for them. It's sort of like driving a car: Perhaps you love doing donuts when you're alone, but with passengers the goal is to make the ride as smooth as possible.
   * So that we can consistently serve images from a CDN, always use image_path or image_tag when referring to images. Never prepend "/images/" when using image_path or image_tag.
   * Also for the CDN, always use cwd-relative paths rather than root-relative paths in image URLs in any CSS. So instead of url('/images/blah.gif'), use url('../images/blah.gif').
+
+### Pull requests
+Once all of the above is completed, you can submit a [Github Pull Request](http://help.github.com/pull-requests/). A team leader will issue or delegate a reviewer and comment with any questions/updates/etc.
 
 
 ## Code of Conduct
