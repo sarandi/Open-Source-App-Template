@@ -73,21 +73,6 @@ Add additional notes about how to deploy this on a live system
 * List
 * Dependencies
 * Here
-* [Sphinx-JS](https://pypi.org/project/sphinx-js/) - Documentation
-* [Docker/Compose]() - Containers
-* [Kubernetes]() - Container Orchestration
-* [NodeJS/NPM]() - Javascript Runtime Environment/Package Manager
-* [Typescript]() - Javascript Superset
-* [tsc-watch]() - Typescript Monitoring / Auto-transpiling
-* [Jest]() - Testing Framework
-* [Express]() - Middlewear Framework
-* [Nodemon]() - Node Monitoring
-* [Concurrently]() - Run multiple N
-* [TypeORM]() - ORM/Entities/Migrations
-* [Reflect-Metadata]() - JS reflection
-* [PostgreSQL]() - Database
-* [Memcached]() - Memory-based Caching
-* [Pug]() - Markup Templating
 
 <!--* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management 
