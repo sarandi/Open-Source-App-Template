@@ -32,6 +32,7 @@ We strive to streamline our support and collaboration channels so that:
 ## Collaborative Development Tools:
 <!-- (provide linked reasoning for each) -->
 As mentioned above, we take great care in solving problems by making the most of a limited toolset including:
+
 1. On-going work: git/github
 1. Long-term documentation/support: readthedocs
 1. Real-time community engagement: discord
@@ -45,7 +46,7 @@ As mentioned above, we take great care in solving problems by making the most of
 * [Development status]
 * [Roadmap]
 * [Discord Channel][Discord]
-    * [How to Setup Discord Channels](https://support.discordapp.com/hc/en-us/articles/115001580171-Channel-Categories-101)
+  * [How to Setup Discord Channels](https://support.discordapp.com/hc/en-us/articles/115001580171-Channel-Categories-101)
 
 <!--
   * [OpenGovernment for Developers](http://opengovernment.org/pages/developer) tells you where we are,
@@ -130,7 +131,7 @@ We currently ARE/ARE NOT accepting money because XXX.
 
 [Discord]: [discordapp.com/channels/###/]
 
-[Discord Moderation]: readthedocs.com/user/repo/moderation-github
+[Discord Moderation]: readthedocs.com/user/repo/moderation-discord
 
 [Documentation]: readthedocs.com/user/repo
 
