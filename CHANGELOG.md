@@ -1,11 +1,13 @@
 <!--
-Using HTML comment format as a quick solution to retain code that isn't used presently but might be eventually.
-Ideally, switch to something like this: https://alvinalexander.com/technology/markdown-comments-syntax-not-in-generated-output
-
+Using HTML comment format as a quick solution to retain code that isn't used
+presently but might be eventually. Ideally, switch to something like this:
+https://alvinalexander.com/technology/markdown-comments-syntax-not-in-generated-
+output
 
 -->
 
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
@@ -13,25 +15,32 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-
 ## [i.i.i] - YYYY-MM-DD
+
 <!-- Wrapping the Semver in square brackets links it to the matching element, 
-in our case this will be a link to a version-tagged Diff in Github, listed in the Updated section -->
+in our case this will be a link to a version-tagged Diff in Github, listed in 
+the Updated section -->
+
 ### Added
+
 - Entry one with a short description
 - Entry two, shorter description
 - And so on, and so forth
-### Added
+
 ### Changed
+
 ### Deprecated
+
 ### Removed
+
 ### Fixed
+
 ### Security
 
+## 0.1.0 - YYYY-MM-DD
 
-
-## 0.0.1 - YYYY-MM-DD
 ### Added
+
 - .gitignore
 - README - templated content
 - MIT License - with Author's Name and Date

@@ -1,6 +1,7 @@
 # Contributing to this project
 
 We're always seeking:
+
 * user feedback
 * help from  volunteers
 * community leaders
@@ -9,7 +10,8 @@ If you haven't already, come introduce yourself on [Discord].
 
 ## Tasks
 
-An exhaustive task list can be found on our [documentation] site, but the following tasks need regular attention:
+An exhaustive task list can be found on our [documentation] site, but the
+following tasks need regular attention:
 
 * [Documentation]
 * [Features]
@@ -19,26 +21,27 @@ An exhaustive task list can be found on our [documentation] site, but the follow
 * [Github Moderation]
 * [Discord Moderation]
 
-## Streamlining Collaboration:
+## Streamlining Collaboration
 
 We strive to streamline our support and collaboration channels so that:
+
 * We can engage with our community to a high degree of consistency
 * We can track our support/feedback and find patterns to help us improve
 * Moderators/team leaders/developers can:
-  * focus on the problems at hand 
-  * in a single location 
+
+  * focus on the problems at hand
+  * in a single location
   * instead of being spread thin between services
 
-## Collaborative Development Tools:
+## Collaborative Development Tools
 <!-- (provide linked reasoning for each) -->
-As mentioned above, we take great care in solving problems by making the most of a limited toolset including:
+As mentioned above, we take great care in solving problems by making the most of
+a limited toolset including:
 
 1. On-going work: git/github
 1. Long-term documentation/support: readthedocs
 1. Real-time community engagement: discord
 
-
-<!-- This feels like a duplicate of the initial content -->
 ## Development resources
 
 <!-- (link directly to each resource on github/services above) -->
@@ -49,21 +52,34 @@ As mentioned above, we take great care in solving problems by making the most of
   * [How to Setup Discord Channels](https://support.discordapp.com/hc/en-us/articles/115001580171-Channel-Categories-101)
 
 <!--
-  * [OpenGovernment for Developers](http://opengovernment.org/pages/developer) tells you where we are,
-  * [Our roadmap](http://opengovernment.org/pages/wish-list) is the 10k foot view of where we're going, and
-  * [Pivotal Tracker](http://pivotaltracker.com/projects/64842) is our day-to-day project management space.
-  * Mailing list: Join our [developer list](http://groups.google.com/group/opengovernment/)
-  * Bugs? [Lighthouse](https://participatorypolitics.lighthouseapp.com/projects/47665-opengovernment/overview) is where to report them
-  * IRC: chat.freenode.net channel [#opengovernment](irc://chat.freenode.net/opengovernment). We're usually there during business hours.
+  * [OpenGovernment for Developers](http://opengovernment.org/pages/developer)
+    tells you where we are,
+  * [Our roadmap](http://opengovernment.org/pages/wish-list) is the 10k foot
+    view of where we're going, and
+  * [Pivotal Tracker](http://pivotaltracker.com/projects/64842) is our
+    day-to-day project management space.
+  * Mailing list: Join our [developer
+    list](http://groups.google.com/group/opengovernment/)
+  * Bugs?
+    [Lighthouse](https://participatorypolitics.lighthouseapp.com/projects/
+    47665-opengovernment/overview)
+    is where to report them
+  * IRC: chat.freenode.net channel
+    [#opengovernment](irc://chat.freenode.net/opengovernment). We're usually
+    there during business hours.
 -->
 
 <!--
-We have a handful of Cucumber features, but most of our testbed consists of RSpec examples. Please write RSpec examples for new code you create. -->
+We have a handful of Cucumber features, but most of our testbed consists of
+RSpec examples. Please write RSpec examples for new code you create. -->
 
 ## Submitting Changes
 
 <!--(from here: https://github.com/stephencelis/ghi)-->
-Once you have an idea of what you want to do, there is a section in the [documentation] to provide more detailed information but the basic steps are as follows:
+Once you have an idea of what you want to do, there is a section in the
+[documentation] to provide more detailed information but the basic steps are as
+follows:
+
 1. Fork this repo
 1. Do your work
 1. Make your changes
@@ -71,58 +87,88 @@ Once you have an idea of what you want to do, there is a section in the [documen
 1. Test - make sure your changes work
 1. Open a pull request!
 
- Please review the following components for more detail on how to submit changes. 
+ Please review the following components for more detail on how to submit changes.
 
 ### Commit Messages
+
 When writing commits:
-1. Always write a clear log message for your commits including a clear list of work you've done.
+
+1. Always write a clear log message for your commits including a clear list of
+   work you've done.
 1. Make sure all of your commits are atomic (one feature per commit).
-1. One-line messages are fine for small changes, but bigger changes should look like this:
+1. One-line messages are fine for small changes, but bigger changes should look
+   like this:
+
 ```BASH
 $ git commit -m "A brief summary of the commit
-> 
+>
 > A paragraph describing what changed and its impact."
 ```
+
 ### Testing
 
-Testing details forthcoming. Ideal pull requests include [Testing Framework] examples. Our goal is 100% test coverage. 
+Testing details forthcoming. Ideal pull requests include [Testing Framework]
+examples. Our goal is 100% test coverage.
 
 ### Coding Conventions
 
 Start reading our code and you'll notice most of the following. We optimize for readability:
 
-  * We indent using two spaces (soft tabs), except for nested lists in Markdown which use four spaces
-  * We use Pug for all views
-  * We avoid logic in views, putting HTML generators into helpers
-  * We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash arrows.
-  * This is open source software. Consider the people who will read your code, and make it look nice for them. It's sort of like driving a car: Perhaps you love doing donuts when you're alone, but with passengers the goal is to make the ride as smooth as possible.
-  * So that we can consistently serve images from a CDN, always use image_path or image_tag when referring to images. Never prepend "/images/" when using image_path or image_tag.
-  * Also for the CDN, always use cwd-relative paths rather than root-relative paths in image URLs in any CSS. So instead of url('/images/blah.gif'), use url('../images/blah.gif').
+* We indent using two spaces (soft tabs), except for nested lists in Markdown
+  which use four spaces
+* We use Pug for all views
+* We avoid logic in views, putting HTML generators into helpers
+* We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`,
+  not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash
+  arrows.
+* This is open source software. Consider the people who will read your code,
+  and make it look nice for them. It's sort of like driving a car: Perhaps you
+  love doing donuts when you're alone, but with passengers the goal is to make
+  the ride as smooth as possible.
+* So that we can consistently serve images from a CDN, always use image_path
+  or image_tag when referring to images. Never prepend "/images/" when using
+  image_path or image_tag.
+* Also for the CDN, always use cwd-relative paths rather than root-relative
+  paths in image URLs in any CSS. So instead of url('/images/blah.gif'), use
+  url('../images/blah.gif').
 
 ### Pull requests
-Once all of the above is completed, you can submit a [Github Pull Request](http://help.github.com/pull-requests/). A team leader will issue or delegate a reviewer and comment with any questions/updates/etc.
 
+Once all of the above is completed, you can submit a [Github Pull
+Request](http://help.github.com/pull-requests/). A team leader will issue or
+delegate a reviewer and comment with any questions/updates/etc.
 
 ## Code of Conduct
-Please note that this project is released with a Contributor Code of Conduct viewable at [CODE_OF_CONDUCT.md]. By participating in this project you agree to abide by its terms.
+
+Please note that this project is released with a Contributor Code of Conduct
+viewable at [CODE_OF_CONDUCT.md]. By participating in this project you agree to
+abide by its terms.
 
 ## Leaders & Moderators
-We need help writing code, tests, documentation, and moderating user comments/chatrooms. If you would like to be responsible for managing some aspect of this project, please get [submit a leadership inquiry].
+
+We need help writing code, tests, documentation, and moderating user
+comments/chatrooms. If you would like to be responsible for managing some aspect
+of this project, please get [submit a leadership inquiry].
 
 ***
+
 ## Resources
-Though heavily modified, this document was strongly influenced by a number of open source communities and their members. Thank you for all your hard work.
 
-1. https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md
-1. https://docs.readthedocs.io/en/stable/contribute.html
+Though heavily modified, this document was strongly influenced by a number of
+open source communities and their members. Thank you for all your hard work.
+
+1. <https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md>
+1. <https://docs.readthedocs.io/en/stable/contribute.html>
 
 ***
+
 Sarandi Klikizos, Creator - Project Name
 
 ***
-## Donations & Monetary Contributions
-We currently ARE/ARE NOT accepting money because XXX.
 
+## Donations & Monetary Contributions
+
+We currently ARE/ARE NOT accepting money because XXX.
 
 [Bugs]:https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 

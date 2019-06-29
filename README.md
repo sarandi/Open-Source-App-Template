@@ -2,9 +2,13 @@
 
 Project description goes here. Try to keep it one paragraph or less.
 
-This template repository is intended for open source project use. In its current state, its purpose is to provide a quick way to get your project up using a limited set of tools, and offer some alternatives or additional options where appropriate.
+This template repository is intended for open source project use. In its current
+state, its purpose is to provide a quick way to get your project up using a
+limited set of tools, and offer some alternatives or additional options where
+appropriate.
 
-As such, feel free to modify it as you see fit. You don't have to give attribution, but you can if you want to.
+As such, feel free to modify it as you see fit. You don't have to give
+attribution, but you can if you want to.
 
 ## Badges
 
@@ -21,7 +25,9 @@ Screencasts, screenshots, etc. consider using:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your
+local machine for development and testing purposes. See deployment for notes on
+how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -47,7 +53,8 @@ And repeat
 until finished
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+End with an example of getting some data out of the system or using it for a
+little demo
 
 ## Running the tests
 
@@ -101,13 +108,17 @@ Full list of forthcoming features can be found on our [Roadmap].
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for how to help with project tasks and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md] for how to help with project tasks and the process
+for submitting pull requests to us.
 
-Please note that this project is released with a Contributor Code of Conduct viewable at [CODE_OF_CONDUCT.md]. By participating in this project you agree to abide by its terms.
+Please note that this project is released with a Contributor Code of Conduct
+viewable at [CODE_OF_CONDUCT.md]. By participating in this project you agree to
+abide by its terms.
 
 ## Versioning
 
-This project uses [SemVer] for versioning. For the versions available, see the [tags on this repository][tags] or in [CHANGELOG.md].
+This project uses [SemVer] for versioning. For the versions available, see the
+[tags on this repository][tags] or in [CHANGELOG.md].
 
 ## Authors
 
@@ -118,7 +129,8 @@ See also the list of [contributors] who participated in this project.
 ## Acknowledgments
 
 <!-- 
-* **Billie Thompson** - *Initial README Template* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Billie Thompson** - *Initial README Template* -
+  [PurpleBooth](https://github.com/PurpleBooth)
 * above template modified heavily with ideas from https://www.makeareadme.com/ -->
 
 * Hat tip to anyone whose code was used
