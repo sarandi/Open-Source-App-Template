@@ -1,18 +1,23 @@
 # Project Title
 
-One Paragraph of project description goes here
+Project description goes here. Try to keep it one paragraph or less.
+
+This template repository is intended for open source project use. In its current state, its purpose is to provide a quick way to get your project up using a limited set of tools, and offer some alternatives or additional options where appropriate.
+
+As such, feel free to modify it as you see fit. You don't have to give attribution, but you can if you want to.
 
 ## Badges
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 
-
-Badges can be created at https://shields.io/
+Badges can be created at <https://shields.io/>
 
 ## Visuals
 
 Screencasts, screenshots, etc. consider using:
-* https://asciinema.org/
-* https://github.com/icholy/ttygif
+
+* <https://asciinema.org/>
+* <https://github.com/icholy/ttygif>
 
 ## Getting Started
 
@@ -22,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
+```BASH
 Give examples
 ```
 
@@ -32,13 +37,13 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
+```BASH
 Give the example
 ```
 
 And repeat
 
-```
+```BASH
 until finished
 ```
 
@@ -52,7 +57,7 @@ Explain how to run the automated tests for this system
 
 Explain what these tests test and why
 
-```
+```BASH
 Give an example
 ```
 
@@ -60,7 +65,7 @@ Give an example
 
 Explain what these tests test and why
 
-```
+```BASH
 Give an example
 ```
 
@@ -81,13 +86,15 @@ Add additional notes about how to deploy this on a live system
 ## Support & Community
 
 Help can be sought by visiting:
+
 * [github.com/my/project/issues](github.com/my/project/issues)
 * [readthedocs.org](https://readthedocs.org/projects/myproject/builds/)
 * [discordapp.com/channels/###](discordapp.com/channels/###)
 
 ## Roadmap
+
 * list upcoming
-* features and 
+* features and
 * tasks here
 
 Full list of forthcoming features can be found on our [Roadmap].
@@ -100,7 +107,7 @@ Please note that this project is released with a Contributor Code of Conduct vie
 
 ## Versioning
 
-This project uses [SemVer] for versioning. For the versions available, see the [tags on this repository][tags] or in [CHANGELOG.md]. 
+This project uses [SemVer] for versioning. For the versions available, see the [tags on this repository][tags] or in [CHANGELOG.md].
 
 ## Authors
 
@@ -108,11 +115,12 @@ This project uses [SemVer] for versioning. For the versions available, see the [
 
 See also the list of [contributors] who participated in this project.
 
-
 ## Acknowledgments
+
 <!-- 
 * **Billie Thompson** - *Initial README Template* - [PurpleBooth](https://github.com/PurpleBooth)
 * above template modified heavily with ideas from https://www.makeareadme.com/ -->
+
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
@@ -120,7 +128,6 @@ See also the list of [contributors] who participated in this project.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md] file for details
-
 
 [CHANGELOG.md]: CHANGELOG.md
 
