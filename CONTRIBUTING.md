@@ -114,9 +114,10 @@ examples. Our goal is 100% test coverage.
 
 Start reading our code and you'll notice most of the following. We optimize for readability:
 
-* We indent using two spaces (soft tabs), except for nested lists in Markdown
-  which use four spaces
-* We use Pug for all views
+* All Markdown files use extension .md
+* Markdown uses Github Flavored Markdown [GFM] which is based on the [CommonMark
+  Spec].
+* Non-Markdown files indent using two spaces (soft tabs)
 * We avoid logic in views, putting HTML generators into helpers
 * We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`,
   not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash
@@ -148,21 +149,59 @@ abide by its terms.
 
 We need help writing code, tests, documentation, and moderating user
 comments/chatrooms. If you would like to be responsible for managing some aspect
-of this project, please get [submit a leadership inquiry].
+of this project, please  [submit a leadership inquiry].
+
+***
+
+## Legal
+
+The nature of open source software is complex. So too are the legal implications
+thereof, especially with the international laws like GDPR. Thankfully, there is
+a fair degree of standardization, and numerous resources to help us make
+meaningful, simple, and quick decisions.
+
+### Contributors' Legal Requirements
+
+This project DOES/DOES NOT require legal documentation, signatures, etcetera
+from its contributors.
+
+### License
+
+All dependencies used in this project have been reviewed and are compatible with
+the MIT License, as defined in our [LICENSE.md].
+
+### Metrics/Analytics
+
+This project USES XXX/DOES NOT USE software to collect anonymous information
+about users and their use patterns. For information on how to integrate these
+tools or access statistics, please reference:
+
+* <https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters>
+* <https://opensource.guide/metrics/>
+
+### Legal Resources for Open Source Projects
+
+* [Open Source Guide - Legal]
+* [Software Freedom FOSS Primer]
+* [Corporate Open Source Compliance]
 
 ***
 
 ## Resources
 
-Though heavily modified, this document was strongly influenced by a number of
-open source communities and their members. Thank you for all your hard work.
+This document is a bricolage of numerous ideas gleaned mostly from open source projects:
 
+1. [Open Source Guide]
 1. <https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md>
 1. <https://docs.readthedocs.io/en/stable/contribute.html>
 
+Thank you to the communities and their members who have built these resources.
+
 ***
 
-Sarandi Klikizos, Creator - Project Name
+Sarandi Klikizos, Author - Project Name List any notable Core Team,
+Contributors, Committers, Maintainers, etc. If this section exceeds a handful,
+create a dedicated location to document.
 
 ***
 
@@ -173,6 +212,10 @@ We currently ARE/ARE NOT accepting money because XXX.
 [Bugs]:https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 
 [CODE_OF_CONDUCT.md]: CODE_OF_CONDUCT.md
+
+[CommonMark Spec]: http://spec.commonmark.org/
+
+[Corporate Open Source Compliance]: https://www.linuxfoundation.org/blog/2015/06/why-companies-that-use-open-source-need-a-compliance-program/
 
 [Development process]: readthedocs.com/user/repo/development-process
 
@@ -188,13 +231,25 @@ We currently ARE/ARE NOT accepting money because XXX.
 
 [General tasks]: https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Atask
 
+[GFM]: https://github.github.com/gfm/
+
 [Github Moderation]: readthedocs.com/user/repo/moderation-github
 
 [GitHub Pull Request]: https://github.com/my/project/pull/new/master
 
+[LICENSE]: LICENSE.md
+
+[LICENSE.md]: LICENSE.md
+
+[Open Source Guide]: https://opensource.guide/
+
+[Open Source Guide - Legal]: https://opensource.guide/legal/
+
 [Roadmap]: readthedocs.com/user/repo/roadmap
 
-[submit a leadership inquiry]: xx
+[Software Freedom FOSS Primer]: https://www.softwarefreedom.org/resources/2008/foss-primer.html
+
+[submit a leadership inquiry]: readthedocs.com/user/repo/leadership
 
 [Testing]: readthedocs.com/user/repo/testing
 

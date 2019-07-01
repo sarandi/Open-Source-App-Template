@@ -106,6 +106,11 @@ Help can be sought by visiting:
 
 Full list of forthcoming features can be found on our [Roadmap].
 
+### README TODOs
+
+* ~~look into and possibly add analytics~~
+* v
+
 ## Contributing
 
 Please read [CONTRIBUTING.md] for how to help with project tasks and the process
@@ -120,9 +125,12 @@ abide by its terms.
 This project uses [SemVer] for versioning. For the versions available, see the
 [tags on this repository][tags] or in [CHANGELOG.md].
 
-## Authors
+## Author, Core Team, Maintainers, Contributers, Committers, etcetera
 
 * **Sarandos Klikizos** - *Initial work* - [sarandi](https://github.com/sarandi)
+* List Others
+* Here Along with
+* Title etcetera
 
 See also the list of [contributors] who participated in this project.
 
@@ -137,9 +145,16 @@ See also the list of [contributors] who participated in this project.
 * Inspiration
 * etc
 
-## License
+## Legal
+
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md] file for details
+
+### Metrics/Analytics
+
+This project USES XXX/DOES NOT USE software to collect anonymous information
+about users and their use patterns.
 
 [CHANGELOG.md]: CHANGELOG.md
 
