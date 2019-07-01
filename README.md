@@ -109,7 +109,11 @@ Full list of forthcoming features can be found on our [Roadmap].
 ### README TODOs
 
 * ~~look into and possibly add analytics~~
-* v
+* look into tools for spreading awareness
+  * <https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code/>
+  * <https://mozillascience.github.io/working-open-workshop/personas_pathways/>
+  * <https://opensource.guide/finding-users/>
+  * <https://opensource.guide/building-community/>
 
 ## Contributing
 
@@ -147,14 +151,14 @@ See also the list of [contributors] who participated in this project.
 
 ## Legal
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE.md] file for details
-
 ### Metrics/Analytics
 
 This project USES XXX/DOES NOT USE software to collect anonymous information
 about users and their use patterns.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE] file for details
 
 [CHANGELOG.md]: CHANGELOG.md
 
@@ -164,7 +168,7 @@ about users and their use patterns.
 
 [contributors]: https://github.com/user/dotfiles/graphs/contributors
 
-[LICENSE.md]: LICENSE.md
+[LICENSE]: LICENSE
 
 [Roadmap]: readthedocs.com/user/repo/roadmap
 
