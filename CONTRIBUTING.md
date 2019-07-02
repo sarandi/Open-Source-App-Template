@@ -73,6 +73,11 @@ a limited toolset including:
 We have a handful of Cucumber features, but most of our testbed consists of
 RSpec examples. Please write RSpec examples for new code you create. -->
 
+## Submitting Bug Reports and Feature Requests
+
+* Bugs can be reported [here][Bugs] using the [Bug Report Template].
+* Bugs can be requested [here][Features] using the [Feature Request Template].
+
 ## Submitting Changes
 
 <!--(from here: https://github.com/stephencelis/ghi)-->
@@ -167,8 +172,12 @@ from its contributors.
 
 ### License
 
+This project is licensed under the MIT [LICENSE].
+
+### License Review
+
 All dependencies used in this project have been reviewed and are compatible with
-the MIT License, as defined in our [LICENSE.md].
+the MIT License, as defined in our [LICENSE].
 
 ### Metrics/Analytics
 
@@ -187,18 +196,6 @@ tools or access statistics, please reference:
 
 ***
 
-## Resources
-
-This document is a bricolage of numerous ideas gleaned mostly from open source projects:
-
-1. [Open Source Guide]
-1. <https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md>
-1. <https://docs.readthedocs.io/en/stable/contribute.html>
-
-Thank you to the communities and their members who have built these resources.
-
-***
-
 Sarandi Klikizos, Author - Project Name List any notable Core Team,
 Contributors, Committers, Maintainers, etc. If this section exceeds a handful,
 create a dedicated location to document.
@@ -209,7 +206,9 @@ create a dedicated location to document.
 
 We currently ARE/ARE NOT accepting money because XXX.
 
-[Bugs]:https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Abug
+[Bug Report Template]: .github/ISSUE_TEMPLATE/bug_report.md
+
+[Bugs]: https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Abug
 
 [CODE_OF_CONDUCT.md]: CODE_OF_CONDUCT.md
 
@@ -227,6 +226,8 @@ We currently ARE/ARE NOT accepting money because XXX.
 
 [Documentation]: readthedocs.com/user/repo
 
+[Feature Request Template]: .github/ISSUE_TEMPLATE/feature_request.md
+
 [Features]: https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Afeature
 
 [General tasks]: https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Atask
@@ -237,9 +238,9 @@ We currently ARE/ARE NOT accepting money because XXX.
 
 [GitHub Pull Request]: https://github.com/my/project/pull/new/master
 
-[LICENSE]: LICENSE.md
+[LICENSE]: LICENSE
 
-[LICENSE.md]: LICENSE.md
+[LICENSE.md]: LICENSE
 
 [Open Source Guide]: https://opensource.guide/
 

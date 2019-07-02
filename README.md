@@ -131,7 +131,7 @@ This project uses [SemVer] for versioning. For the versions available, see the
 
 ## Author, Core Team, Maintainers, Contributers, Committers, etcetera
 
-* **Sarandos Klikizos** - *Initial work* - [sarandi](https://github.com/sarandi)
+* **Sarandos Klikizos** - *Author, Initial work* - [sarandi](https://github.com/sarandi)
 * List Others
 * Here Along with
 * Title etcetera
@@ -148,6 +148,18 @@ See also the list of [contributors] who participated in this project.
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## Resources
+
+This document is a bricolage of numerous ideas gleaned mostly from open source projects:
+
+1. [Open Source Guide]
+1. <https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md>
+1. <https://docs.readthedocs.io/en/stable/contribute.html>
+1. <https://www.writethedocs.org/guide/>
+1. <https://github.com/kylelobo/The-Documentation-Compendium>
+
+Thank you to the people and communities who have built these resources.
 
 ## Legal
 
@@ -169,6 +181,8 @@ This project is licensed under the MIT License - see the [LICENSE] file for deta
 [contributors]: https://github.com/user/dotfiles/graphs/contributors
 
 [LICENSE]: LICENSE
+
+[Open Source Guide]: https://opensource.guide/
 
 [Roadmap]: readthedocs.com/user/repo/roadmap
 
