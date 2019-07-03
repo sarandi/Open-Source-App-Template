@@ -3,9 +3,9 @@
 Project description goes here. Try to keep it one paragraph or less.
 
 This template repository is intended for open source project use. In its current
-state, its purpose is to provide a quick way to get your project up using a
-limited set of tools, and offer some alternatives or additional options where
-appropriate.
+state, its purpose is to provide a quick way to get your project and community
+started using a limited set of tools, and offer some alternatives or additional
+options where appropriate.
 
 As such, feel free to modify it as you see fit. You don't have to give
 attribution, but you can if you want to.
@@ -14,7 +14,8 @@ attribution, but you can if you want to.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
 
-Badges can be created at <https://shields.io/>
+* <https://github.com/badges/shields>
+* Badges can be created at <https://shields.io/>
 
 ## Visuals
 
@@ -104,7 +105,7 @@ Help can be sought by visiting:
 * features and
 * tasks here
 
-Full list of forthcoming features can be found on our [Roadmap].
+Full list of forthcoming features and changes can be found on our [Roadmap].
 
 ### README TODOs
 
@@ -114,6 +115,8 @@ Full list of forthcoming features can be found on our [Roadmap].
   * <https://mozillascience.github.io/working-open-workshop/personas_pathways/>
   * <https://opensource.guide/finding-users/>
   * <https://opensource.guide/building-community/>
+  * <https://www.producthunt.com/>
+* Consider adding logo/badges/etc. above the title
 
 ## Contributing
 
@@ -149,7 +152,7 @@ See also the list of [contributors] who participated in this project.
 * Inspiration
 * etc
 
-## Resources
+### Resources
 
 This document is a bricolage of numerous ideas gleaned mostly from open source projects:
 
@@ -158,6 +161,12 @@ This document is a bricolage of numerous ideas gleaned mostly from open source p
 1. <https://docs.readthedocs.io/en/stable/contribute.html>
 1. <https://www.writethedocs.org/guide/>
 1. <https://github.com/kylelobo/The-Documentation-Compendium>
+1. <https://github.com/jamiebuilds/documentation-handbook>
+
+Feedback on your can be sought here:
+
+1. <https://maintainer.io/>
+1. <https://github.com/LappleApple/feedmereadmes>
 
 Thank you to the people and communities who have built these resources.
 

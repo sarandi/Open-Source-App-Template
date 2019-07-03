@@ -115,6 +115,12 @@ $ git commit -m "A brief summary of the commit
 Testing details forthcoming. Ideal pull requests include [Testing Framework]
 examples. Our goal is 100% test coverage.
 
+### Linting
+
+Linters we use:
+
+* markdownlint
+
 ### Coding Conventions
 
 Start reading our code and you'll notice most of the following. We optimize for readability:
