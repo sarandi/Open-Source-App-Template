@@ -117,6 +117,11 @@ Full list of forthcoming features and changes can be found on our [Roadmap].
   * <https://opensource.guide/building-community/>
   * <https://www.producthunt.com/>
 * Consider adding logo/badges/etc. above the title
+  * Remove description heading
+* Add table of contents
+  * Link sections using anchor/name
+  * Deploy section needs more detail
+* Look into CI
 
 ## Contributing
 
