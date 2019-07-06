@@ -240,10 +240,10 @@ This document is a bricolage of numerous ideas gleaned mostly from open source p
 1. <https://github.com/jamiebuilds/documentation-handbook>
 1. <https://dev.to/kefranabg/generate-beautiful-readme-in-10-seconds-38i2?>
 
-Feedback on your can be sought here:
+Feedback on your README and other repo features can be sought here:
 
-1. <https://maintainer.io/>
 1. <https://github.com/LappleApple/feedmereadmes>
+1. <https://maintainer.io/>
 
 Thank you to the people and communities who have built these resources.
 
