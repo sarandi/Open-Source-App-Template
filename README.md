@@ -275,14 +275,3 @@ This project is licensed under the MIT License - see the [LICENSE] file for deta
 [SemVer]: http://semver.org/
 
 [tags]: https://github.com/your/project/tags
-
-<style
-  type="text/css">
-img[src~="logo0-20190704.png"] {
-  background: #0ff;
-  display: block;
-  margin: 0 auto;
-  margin-left: 60px;
-  text-align: center;
-  }
-</style>
