@@ -212,7 +212,7 @@ create a dedicated location to document.
 
 We currently ARE/ARE NOT accepting money because XXX.
 
-* https://shields.io/category/funding
+* <https://shields.io/category/funding>
 
 [Bug Report Template]: .github/ISSUE_TEMPLATE/bug_report.md
 
