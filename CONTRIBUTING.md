@@ -212,6 +212,8 @@ create a dedicated location to document.
 
 We currently ARE/ARE NOT accepting money because XXX.
 
+* https://shields.io/category/funding
+
 [Bug Report Template]: .github/ISSUE_TEMPLATE/bug_report.md
 
 [Bugs]: https://github.com/user/repo/issues?q=is%3Aissue+is%3Aopen+label%3Abug
